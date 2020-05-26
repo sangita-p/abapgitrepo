@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/HCLPRODS/WG_MSG</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message Class for Work Group</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/HCLPRODS/WG_MSG</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Work Group &amp;1 created successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/HCLPRODS/WG_MSG</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Work Group &amp;1 deleted successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/HCLPRODS/WG_MSG</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Work Group &amp;1 updated successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/HCLPRODS/WG_MSG</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Plant &amp;1 has been assigned to Work Group &amp;2 Successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/HCLPRODS/WG_MSG</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Sold to Part &amp;1 has been assigned to Work Group &amp;2 Successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/HCLPRODS/WG_MSG</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Plant &amp;1 has been removed from Work Group &amp;2 Successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/HCLPRODS/WG_MSG</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Sold to Party &amp;1 has been assigned to Work Group &amp;2 Successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/HCLPRODS/WG_MSG</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Work Group &amp;1 already created please use different name.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

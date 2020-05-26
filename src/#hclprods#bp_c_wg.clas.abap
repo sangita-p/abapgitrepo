@@ -1,0 +1,7 @@
+CLASS /hclprods/bp_c_wg DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF /hclprods/c_workgroup .
+ENDCLASS.
+
+
+CLASS /hclprods/bp_c_wg IMPLEMENTATION.
+ENDCLASS.
+

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/HCLPRODS/BOW_MSG</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message Class for BOW application</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/HCLPRODS/BOW_MSG</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>BOW id &amp;1 created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/HCLPRODS/BOW_MSG</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Number Range is not maintained for object &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/HCLPRODS/BOW_MSG</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Internal Issue (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/HCLPRODS/BOW_MSG</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>No data exist for Revision &amp; and Plant &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/HCLPRODS/BOW_MSG</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Revision &amp; is attached to BOW Id &amp;</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

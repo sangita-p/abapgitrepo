@@ -1,0 +1,53 @@
+unmanaged implementation in class /hclprods/bp_c_bow unique;
+
+define behavior for /HCLPRODS/C_Bow //alias bow
+//lock master
+//authorization master
+//etag <field_name>
+{
+
+  create;
+  update;
+  delete ( features : instance );
+
+  //action ( features : instance )  result [1] $self;
+  //  field ( read only ) BOWID, BOWTY;
+
+  /* Mapping CDS view fields to db fields */
+  mapping for /HCLPRODS/BOWH
+  {
+    BOWID = BOWID;
+    BOWTY = BOWTY;
+    BOWTXT = BOWTXT;
+    STATUS = STATUS;
+    WERKS = WERKS;
+    ERNAM = ERNAM;
+    ERDAT = ERDAT;
+    AENAM = AENAM;
+    AEDAT = AEDAT;
+    QUOTE_TYPE = QUOTE_TYPE;
+    BOW_DATE = BOW_DATE;
+    AUART = AUART;
+    VKORG = VKORG;
+    VTWEG = VTWEG;
+    SPART = SPART;
+    VKBUR = VKBUR;
+    VKGRP = VKGRP;
+    KUNAG = KUNAG;
+    REVNR = REVNR;
+    IWERK = IWERK;
+    QMNUM = QMNUM;
+    VBELN = VBELN;
+    CONTRACT = CONTRACT;
+    PROJECT = PRONR;
+    AUFNR = AUFNR;
+    MATNR = MATNR;
+    MENGE = MENGE;
+    MEINS = MEINS;
+    EQUNR = EQUNR;
+    FLOC = TPLNR;
+    NO_DUP_TL = NO_DUP_TL;
+    SKIP_TL = SKIP_TL;
+    LOEKZ = LOEKZ;
+  }
+}

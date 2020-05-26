@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition for BOW header'
+define service /HCLPRODS/BOWH_SD {
+  expose /HCLPRODS/C_Bow;
+  expose /HCLPRODS/I_WorkList;
+}

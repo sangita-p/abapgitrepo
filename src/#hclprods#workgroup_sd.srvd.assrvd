@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for Work Group'
+define service /HCLPRODS/WorkGroup_SD {
+  expose /HCLPRODS/C_WorkGroup;
+}

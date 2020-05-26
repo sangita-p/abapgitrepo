@@ -1,0 +1,23 @@
+implementation unmanaged  in class /hclprods/bp_c_wg unique;
+
+define behavior for /HCLPRODS/C_WORKGROUP //alias <>
+
+//late numbering
+//lock master
+//authorization master
+//etag <field_name>
+  {
+  create;
+  delete;
+  update;
+
+  mapping for /HCLPRODS/WGHDR
+  {
+  workgroup = workgroup;
+  Description = description;
+  matnr = matnr;
+  bill_method = Bill_method;
+
+
+  }
+  }
